@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js"></script>
+  <title>JavaScript DOM functions</title>
+</head>
+
+<body>
+  <div class="jumbotron">
+    <h1 class="text-black text-center pt-5">JavaScript DOM function</h1>
+    <p>Document Object Model (DOM) is a programming interface for HTML and XML documents.</p>
+    <p>These are some of the HTML element,  P, DIV, A, TABLE</p>
+  </div>
+  <br><br>
+  <div class="container">
+    <div class="hams">
+      <button onclick='showDomElements()' class="d-inline">view elements.</button>
+    </div>
+    <div class="new">
+      ​<div id="main" class="text-black ">
+        <h3 id="first"></h3>
+        <p>
+        </p>
+        <ol>
+          <li>The #text shows empty inputs on the elements.</li>
+          <li>Click to display all tags used.</li>
+        </ol>
+        ​<button onclick="showTags()">view tags.</button>
+      </div> ​
+    </div>
+    <div class="old">
+      <p id="display" class="text-black "></p>
+    </div>
+    <div class="mwa">
+      <input class="button" type="button" value="Reset" onclick="reset()">
+
+    </div>
+  </div>
+</body>
+
+</html>
